@@ -29,7 +29,7 @@ echo lengthString($str);
 $numbers = [1, 3, 6, 10, 15, 25];
 
 function quantityNumbers($numbers) {
-    $summationOfNumbers = array_sum($numbers);
+    $summationOfNumbers = array_sum($numbers)/count($numbers);;
     return $summationOfNumbers;
 }
 
