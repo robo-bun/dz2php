@@ -48,8 +48,7 @@ function compareNumbers($firstNum, $secondNum)
         return "{$firstNum} < {$secondNum}";
     } elseif ($firstNum > $secondNum) {
         return "{$firstNum} > {$secondNum}";
-    }
-        elseif ($firstNum == $secondNum) {
+    } elseif ($firstNum == $secondNum) {
         return "{$firstNum} = {$secondNum}";
         }
     }
