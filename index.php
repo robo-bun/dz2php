@@ -39,10 +39,26 @@ echo quantityNumbers($numbers);
 
 
 // 4
+$firstNum = 3;
+$secondNum = 9;
+
+function compareNumbers($firstNum, $secondNum)
+{
+    if ($firstNum < $secondNum) {
+        return "{$firstNum} < {$secondNum}";
+    } elseif ($firstNum > $secondNum) {
+        return "{$firstNum} > {$secondNum}";
+    }
+        elseif ($firstNum == $secondNum) {
+        return "{$firstNum} = {$secondNum}";
+        }
+    }
+
+echo compareNumbers($firstNum, $secondNum);
 
 
 
-
+        
 // 5
 $left = 'Hello, ';
 $right = 'world!';
