@@ -1,4 +1,5 @@
-// 1
+// 1 Написать функцию, которая принимает на вход два числа и возвращает их сумму
+
 $firstNum = 3;
 $secondNum = 9;
 
@@ -12,7 +13,7 @@ echo total($firstNum, $secondNum);
 
 
 
-// 2
+// 2 Написать функцию, которая принимает на вход строку и возвращает ее длину
 $str = 'Eto stroka, dliny kotoroi ya hochy yznat';
 
 function lengthString($str) {
@@ -25,7 +26,7 @@ echo lengthString($str);
 
 
 
-// 3
+// 3 Написать функцию, которая принимает на вход массив чисел и возвращает их среднее значение
 $numbers = [1, 3, 6, 10, 15, 25];
 
 function quantityNumbers($numbers) {
@@ -38,7 +39,7 @@ echo quantityNumbers($numbers);
 
 
 
-// 4
+// 4 Написать функцию, которая принимает на вход два числа и определяет, какое из них больше
 $firstNum = 3;
 $secondNum = 9;
 
@@ -58,7 +59,7 @@ echo compareNumbers($firstNum, $secondNum);
 
 
         
-// 5
+// 5 Написать функцию, которая принимает на вход две строки и возвращает их объединение
 $left = 'Hello, ';
 $right = 'world!';
 
@@ -72,7 +73,7 @@ echo concatString($left, $right);
 
 
 
-// 6
+// 6 Написать функцию, которая принимает на вход строку и возвращает ее в верхнем регистре
 $str = 'Tyt napisan KakOi-TO text';
 
 function modifyText($str) {
@@ -85,7 +86,7 @@ echo modifyText($str);
 
 
 
-// 7
+// 7 Написать функцию, которая принимает на вход строку и определяет, содержит ли она подстроку
 function find($myString, $fragment) {
     $searchCycle = strpos($myString, $fragment);
 
@@ -103,7 +104,7 @@ echo find($myString, $fragment);
 
 
 
-// 8
+// 8 Найти среднее арифметическое двух чисел
 $firstNum = 3;
 $secondNum = 9;
 
@@ -117,7 +118,7 @@ total($firstNum, $secondNum);
 
 
 
-// 9
+// 9 Найти корень квадратный из числа
 $number = 81;
 
 function squareRootCalculation($number) {
